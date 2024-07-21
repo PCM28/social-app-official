@@ -1,10 +1,14 @@
 .home-page{
     display: flex;
     flex-direction: column;
+    align-content: center;
     align-items: center;
     justify-items: center;
     justify-content: center;
     width: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
 .post-item{
@@ -13,4 +17,17 @@
     align-items: center;
     justify-items: center;
     justify-content: center;
+    align-content: center;
+}
+
+.posts-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }

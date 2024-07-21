@@ -6,7 +6,7 @@ import "./NavbarHomepage.scss";
 
 const NavbarHomepage = () => {
   return (
-    <Navbar expand="lg" className="bg-navbar">
+    <Navbar expand="lg" className="bg-navbar" bg="success">
       <Container>
         <Navbar.Brand>
           <Link to="/" className='link'>TFG SOCIAL APP</Link>
