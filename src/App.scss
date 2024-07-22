@@ -12,6 +12,10 @@ header, footer{
   color: white;
 }
 
+header {
+  background-color: #198754;
+}
+
 footer{
   display: flex;
   flex-direction: column;
@@ -22,6 +26,11 @@ footer{
   padding: 5px 0;
   border: 0;
   background-color: #198754;
+  z-index: 1000;
+}
+
+main {
+  overflow-y: auto;
 }
 
 body{
@@ -30,8 +39,10 @@ body{
   margin: 0;
   padding: 0;
   border: 0;
-  background-color:rgb(219, 219, 219);
-  overflow-y: auto;
+  background-color: rgb(219, 219, 219);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 
   ::-webkit-scrollbar {
     width: 0;
@@ -39,6 +50,6 @@ body{
   }
   // Quitar scrolling en Firefox
   scrollbar-width: none;
-  // Quitar scrolling en Internet Explore y Edge
+  // Quitar scrolling en Internet Explorer y Edge
   -ms-overflow-style: none;
 }
